@@ -28,3 +28,5 @@ jobs:
           goarch: ${{ matrix.goarch }}
           goversion: "1.22.3"
           extra_files: LICENSE
+          pre_command: export CGO_ENABLED=0
+          sha256sum: true
